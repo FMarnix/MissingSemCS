@@ -1,0 +1,37 @@
+1.
+  echo $SHELL
+
+2.
+  cd /tmp
+  mkdir missing
+
+3.
+  man touch
+
+4.
+  touch semester
+
+5.
+  vim semester
+  content
+    #!/bin/bash
+    curl --head -silent https://missing.csail.mit.edu
+
+6.
+  ./semester (not run)
+  ls -l
+
+7.
+  sh semester. Because it is a bash file
+
+8.
+  man chmod
+
+9.
+  chmod 777 semester
+
+10.
+  cat semester
+
+11.
+  
